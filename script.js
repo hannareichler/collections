@@ -44,86 +44,67 @@ function showData(){
    const peopleContainer0 = document.querySelector(".pic0");
    var item0 = people[Math.floor(Math.random() * people.length)];
    peopleContainer0.style.backgroundImage= "url("+item0.fields.Attachments[0].url+")"
-}
 
-function showData(){
    const peopleContainer1 = document.querySelector(".pic1");
    var item1 = people[Math.floor(Math.random() * people.length)];
    peopleContainer1.style.backgroundImage= "url("+item1.fields.Attachments[0].url+")"
-}
 
-function showData(){
    const peopleContainer2 = document.querySelector(".pic2");
    var item2 = people[Math.floor(Math.random() * people.length)];
    peopleContainer2.style.backgroundImage= "url("+item2.fields.Attachments[0].url+")"
-}
 
-function showData(){
    const peopleContainer3 = document.querySelector(".pic3");
    var item3 = people[Math.floor(Math.random() * people.length)];
    peopleContainer3.style.backgroundImage= "url("+item3.fields.Attachments[0].url+")"
-}
 
-function showData(){
    const peopleContainer4 = document.querySelector(".pic4");
    var item4 = people[Math.floor(Math.random() * people.length)];
    peopleContainer4.style.backgroundImage= "url("+item4.fields.Attachments[0].url+")"
-}
 
-function showData(){
    const peopleContainer5 = document.querySelector(".pic5");
    var item5 = people[Math.floor(Math.random() * people.length)];
    peopleContainer5.style.backgroundImage= "url("+item5.fields.Attachments[0].url+")"
-}
 
-function showData(){
    const peopleContainer6 = document.querySelector(".pic6");
    var item6 = people[Math.floor(Math.random() * people.length)];
    peopleContainer6.style.backgroundImage= "url("+item6.fields.Attachments[0].url+")"
-}
-function showData(){
+
    const peopleContainer7 = document.querySelector(".pic7");
    var item7 = people[Math.floor(Math.random() * people.length)];
    peopleContainer7.style.backgroundImage= "url("+item7.fields.Attachments[0].url+")"
-}
 
-function showData(){
    const peopleContainer8 = document.querySelector(".pic8");
    var item8 = people[Math.floor(Math.random() * people.length)];
    peopleContainer8.style.backgroundImage= "url("+item8.fields.Attachments[0].url+")"
-}
 
-function showData(){
    const peopleContainer9 = document.querySelector(".pic9");
    var item9 = people[Math.floor(Math.random() * people.length)];
    peopleContainer9.style.backgroundImage= "url("+item9.fields.Attachments[0].url+")"
-}
 
-function showData(){
    const peopleContainer10 = document.querySelector(".pic10");
    var item10 = people[Math.floor(Math.random() * people.length)];
    peopleContainer10.style.backgroundImage= "url("+item10.fields.Attachments[0].url+")"
-}
 
-function showData(){
    const peopleContainer11 = document.querySelector(".pic11");
    var item11 = people[Math.floor(Math.random() * people.length)];
    peopleContainer11.style.backgroundImage= "url("+item11.fields.Attachments[0].url+")"
-}
 
-function showData(){
    const peopleContainer12 = document.querySelector(".pic12");
    var item12 = people[Math.floor(Math.random() * people.length)];
    peopleContainer12.style.backgroundImage= "url("+item12.fields.Attachments[0].url+")"
-}
 
-function showData(){
    const peopleContainer13 = document.querySelector(".pic13");
    var item13 = people[Math.floor(Math.random() * people.length)];
    peopleContainer13.style.backgroundImage= "url("+item13.fields.Attachments[0].url+")"
 }
 
-// function showData(){
+const reloadtButton = document.querySelector("#reload");
+// Reload everything:
+function reload() {
+    reload = location.reload();
+}
+// Event listeners for reload
+reloadButton.addEventListener("click", reload, false);
 //    const peopleContainer14 = document.querySelector(".pic14");
 //    var item14 = people[Math.floor(Math.random() * people.length)];
 //    peopleContainer14.style.backgroundImage= "url("+item14.fields.Attachments[0].url+")"

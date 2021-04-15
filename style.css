@@ -11,6 +11,21 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
+  background-color: black;
+  font-family: 'Zen Dots', cursive;
+}
+
+button {
+  background: rgba(255, 255, 255, 0.3);
+  color: #fff;;
+  font-family: 'Zen Dots', cursive;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 
 
@@ -188,7 +203,7 @@ body {
 }
 
 .tile {
-  font-family: Helvetica;
+  font-family: 'Zen Dots', cursive;
   color: white;
   align: center;
 }
