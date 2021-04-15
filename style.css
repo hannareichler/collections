@@ -1,0 +1,261 @@
+/****************************/
+
+
+/* setting up the full page */
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+
+/*************************/
+
+
+/* layout of the columns */
+
+.cols {
+  width: 100%;
+  clear: both;
+}
+
+.cols .tile {
+  height: 100%;
+  float: left;
+  overflow: hidden;
+}
+
+
+/* two columns layout */
+
+.cols.two .tile {
+  width: 50%;
+}
+
+
+/* three columns layout */
+
+.cols.three .tile {
+  width: 33%;
+}
+
+.cols.three .tile:last-of-type {
+  width: 34%;
+}
+
+
+/* four columns layout */
+
+.cols.four .tile {
+  width: 25%;
+}
+
+
+/**********************/
+
+
+/* layout of the rows */
+
+.rows {
+  height: 100%;
+}
+
+
+/* two rows layout */
+
+.rows.two .cols {
+  height: 50%;
+}
+
+
+/* three rows layout */
+
+.rows.three .cols {
+  height: 33%;
+}
+
+.rows.three .cols:last-of-type {
+  height: 34%;
+}
+
+
+/* four rows layout */
+
+.rows.four .cols {
+  height: 25%;
+}
+
+
+/*****************************************/
+
+
+/* some background images and decoration */
+
+.cols .tile {
+  opacity: 0.4;
+  background-size: cover;
+}
+
+.rows {
+  background: black;
+}
+
+.cols .tile.schmancy {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.cols .tile.move.pic0 {
+  background-image: url("image/image1.png");
+}
+
+.cols .tile.move.pic1 {
+  background-image: url("image/image2.png");
+}
+
+.cols .tile.move.pic2 {
+  background-image: url("image/image3.png");
+}
+
+.cols .tile.move.pic3 {
+  background-image: url("image/image4.png");
+}
+.cols .tile.move.pic4 {
+  background-image: url("image/image5.png");
+}
+
+.cols .tile.move.pic5 {
+  background-image: url("image/image6.png");
+}
+
+.cols .tile.move.pic6 {
+  background-image: url("image/image7.png");
+}
+
+.cols .tile.move.pic7 {
+  background-image: url("image/image8.png");
+}
+.cols .tile.move.pic8 {
+  background-image: url("image/image9.png");
+}
+
+.cols .tile.move.pic9 {
+  background-image: url("image/image10.png");
+}
+
+.cols .tile.move.pic10 {
+  background-image: url("image/image11.png");
+}
+
+.cols .tile.move.pic11 {
+  background-image: url("image/image12.png");
+}
+
+.cols .tile.move.pic12 {
+  background-image: url("image/image13.png");
+}
+
+.cols .tile.move.pic13 {
+  background-image: url("image/image14.png");
+}
+
+.cols .tile.move.pic14 {
+  background-image: url("image/image4.png");
+}
+
+.cols .tile.move.pic15 {
+  background-image: url("image/image10.png");
+}
+
+
+
+/************************************/
+
+
+/* typography and content of a tile */
+
+.tile .content {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  margin-left: -25%;
+}
+
+.tile {
+  font-family: Helvetica;
+  color: white;
+  align: center;
+}
+
+
+/************************/
+
+
+/* animate mouse effect */
+
+.cols .tile {
+  transition: 1s;
+}
+
+.cols .tile:hover {
+  opacity: 1;
+  font-size: 10em;
+}
+
+.cols.two:hover .tile {
+  width: 20%;
+}
+
+.cols.two:hover .tile:hover {
+  width: 80%;
+}
+
+.cols.three:hover .tile {
+  width: 20%;
+}
+
+.cols.three:hover .tile:hover {
+  width: 60%;
+}
+
+.cols.four:hover .tile {
+  width: 20%;
+}
+
+.cols.four:hover .tile:hover {
+  width: 40%;
+}
+
+.rows .cols {
+  transition: 1s;
+}
+
+.rows.two:hover .cols {
+  height: 20%;
+}
+
+.rows.two:hover .cols:hover {
+  height: 80%;
+}
+
+.rows.three:hover .cols {
+  height: 20%;
+}
+
+.rows.three:hover .cols:hover {
+  height: 60%;
+}
+
+.rows.four:hover .cols {
+  height: 20%;
+}
+
+.rows.four:hover .cols:hover {
+  height: 40%;
+}
